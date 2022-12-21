@@ -1,9 +1,17 @@
 import React from 'react'
+import Endcard from '../../pages/EndCard/Endcard'
+import Navbar from '../../pages/Navbar/Navbar'
 import './Home.scss'
 
 function Home() {
   return (
-    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sapiente, perspiciatis quos delectus mollitia officia, soluta error, maiores itaque qui quam alias voluptatum dolorem. Omnis eos sint quisquam soluta facilis?</div>
+    <>
+    <Navbar/>
+    
+    <h1>Home</h1>
+    
+    <Endcard/>
+    </>
   )
 }
 

@@ -1,9 +1,17 @@
 import React from 'react'
+import Endcard from '../../pages/EndCard/Endcard'
+import Navbar from '../../pages/Navbar/Navbar'
 import './Contact_Work.scss'
 
 function Contact_Work() {
   return (
-    <div>Contact_Work</div>
+    <>
+    <Navbar/>
+    
+    <h1>Contact_Work</h1>
+    
+    <Endcard/>
+    </>
   )
 }
 

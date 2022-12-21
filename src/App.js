@@ -14,18 +14,16 @@ import End_bottom from './pages/End_bottom/End_bottom';
 function App() {
   return (
     <div className="App">
-     <Navbar/>
       <Routes>
-        <Route path='' element={<Home/>}/>
-        <Route path='about' element={<About/>}/>
-        <Route path='portfolio' element={<Portfolio/>}/>
-        <Route path='product' element={<Product/>}/>
-        <Route path='expertise' element={<Expertise/>}/>
-        <Route path='contact' element={<Contact/>}/>
-        <Route path='blog' element={<Blog/>}/>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/about' element={<About/>}/>
+        <Route path='/portfolio' element={<Portfolio/>}/>
+        <Route path='/product' element={<Product/>}/>
+        <Route path='/expertise' element={<Expertise/>}/>
+        <Route path='/contact' element={<Contact/>}/>
+        <Route path='/blog' element={<Blog/>}/>
       </Routes>
       <Outlet/>
-      <Endcard/>
     </div>
   );
 }
