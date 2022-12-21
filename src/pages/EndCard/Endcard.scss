@@ -1,0 +1,113 @@
+.end{
+    width: 100%;
+    background-color: rgb(19, 19, 82);
+
+}
+
+.Endcard{
+    position: relative;
+    width: 1450px;
+    height: 563px;
+    color: #fff;
+    display: flex;
+    margin: 0 auto;
+    p{
+        &:hover{
+            color: rgb(232, 103, 16);
+            cursor: pointer;
+        }
+    }
+    .end_bir{
+        position: absolute;
+        width: 190px;
+        top: 90px;
+        left: 100px;
+        text-align: start;
+        h5{
+            font-size: 18px;
+        }
+        p{
+            margin: 5px 10px;
+        }
+    }
+    .end_ikki{
+        position: absolute;
+        width: 200px;
+        height: 220px;
+        top: 90px;
+        left: 410px;
+        p{
+            margin: 5px 10px;
+        }
+        h5{
+            font-size: 18px;
+        }
+    }
+    .end_uch{
+        position: absolute;
+        width: 260px;
+        top: 90px;
+        left: 730px;
+        p{
+            margin: 5px 10px;
+        }
+        h5{
+            font-size: 18px;
+        }
+    }
+    
+    .end_tort{
+        position: absolute;
+        width: 300px;
+        height: 150px;
+        top: 90px;
+        left: 1110px;
+        .tort_img{
+            margin-left: -8px;
+            margin-top: 6px;
+            img{
+                margin: 3px 12px;
+            }
+        }
+        .email{
+            display: flex;
+            margin: 5px 0;
+            p{
+                margin-left: 5px;
+            }
+        }
+        .tel{
+            display: flex;
+            p{
+                margin-left: 5px;
+            }
+        }
+        p{
+            margin: 5px 0;
+        }
+        h5{
+            font-size: 18px;
+        }
+    }
+    .end_fabicon{
+        position: absolute;
+        width: 180px;
+        top: 300px;
+        left: 1120px;
+        display: flex;
+        p{
+            margin-left: 8px;
+        }
+    }
+    .end_chislo{
+        position: absolute;
+        width: 450px;
+        top: 490px;
+        left: 80px;
+    }
+    .end_btn{
+        position: absolute;
+        bottom: 15px;
+        right: 50px;
+    }
+}
