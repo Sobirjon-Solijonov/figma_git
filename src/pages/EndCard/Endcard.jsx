@@ -8,9 +8,12 @@ import mes from '../../img/mes.png'
 import te from '../../img/te.png'
 import yo from '../../img/yo.png'
 import ine from '../../img/ine.png'
+import End_bottom from '../End_bottom/End_bottom'
 
 function Endcard() {
   return (
+    <>
+    <End_bottom/>
     <div className="end">
       <div className='Endcard'>
       <div className="end_bir">
@@ -69,6 +72,7 @@ function Endcard() {
       </div>
     </div>
     </div>
+    </>
   )
 }
 

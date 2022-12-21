@@ -9,6 +9,7 @@ import Expertise from './Companents/Expertise/Expertise';
 import Contact from './Companents/Contact/Contact';
 import Blog from './Companents/Blog/Blog';
 import Endcard from './pages/EndCard/Endcard';
+import End_bottom from './pages/End_bottom/End_bottom';
 
 function App() {
   return (
