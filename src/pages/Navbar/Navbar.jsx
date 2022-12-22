@@ -5,6 +5,7 @@ import {Link} from 'react-router-dom'
 function Navbar() {
   return (
     <div className='Navbar' id='start'>
+      <div className="flex_nav">
       <div className="nav_logo">
         <h3>Logo Here</h3>
       </div>
@@ -16,6 +17,7 @@ function Navbar() {
         <Link className='Link' to='/expertise'>EXPERTISE</Link>
         <Link className='Link' to='/contact'>CONTACT</Link>
         <Link className='Link' to='/blog'>BLOG</Link>
+      </div>
       </div>
     </div>
   )

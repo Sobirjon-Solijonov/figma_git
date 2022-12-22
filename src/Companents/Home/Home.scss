@@ -1,0 +1,129 @@
+.Home{
+    width: 100%;
+    height: auto;
+}
+.home_flex{
+    display: flex;
+    width: 1519px;
+    height: 650px;
+    margin: 0 auto;
+}
+.home_bir{
+    position: relative;
+    width: 1200px;
+    background: #000;
+    color: white;
+    p{
+        position: absolute;
+        top: 190px;
+        width: 550px;
+        left: 150px;
+    }
+    h2{
+        position: absolute;
+        top: 100px;
+        left: 150px;
+        font-size: 35px;
+    }
+   .h_btn{
+    display: flex;
+    position: absolute;
+    top: 355px;
+    left: 150px;
+    button{
+        position: absolute;
+        width: 150px;
+        height: 40px;
+        border: none;
+        border-radius: 25px;
+        background-color: #00D285;
+    }
+    .h_btn_ikki{
+        position: absolute;
+        width: 150px;
+        height: 40px;
+        border: none;
+        left: 200px;
+        border-radius: 25px;
+        background-color: #fff;
+    }
+   }
+}
+
+.home_ikki{
+    position: relative;
+    width: 500px;
+    .img_bir{
+        position: absolute;
+        top: 80px;
+        width: 468px;
+        height: 520px;
+        left: -150px;
+        z-index: 100;
+    }
+    .img_ikki{
+        position: absolute;
+        top: 300px;
+        width: 300px;
+        height: 400px;
+        z-index: 12;
+        left: -250px;
+
+    }
+    .img_uch{
+        position: absolute;
+        top: -85px;
+        width: 100%;
+        height: 600px;
+        z-index: 50;
+    }
+}
+// AVG
+
+.AVG{
+    width: 100%;
+    .agk_content{
+        width: 1519px;
+        height: 650px;
+        margin:180px auto;
+        border: 1px solid red;
+    }
+}
+
+// vps
+.VPS{
+    width: 100%;
+    height: auto;
+}
+.vps_content{
+    width: 1519px;
+    height: 650px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+// vps_modall
+.vps_modal{
+    width: 1519px;
+    height: 650px;
+    margin: 0 auto;
+    border: 1px solid red;
+
+}
+
+// vps_img
+
+.vps_img{
+    width: 1519px;
+    height: 650px;
+    margin: 0 auto;
+    border: 1px solid red; 
+}
+// vps_card
+
+.vps_card{
+    width: 1519px;
+    height: 650px;
+    margin: 0 auto;
+    border: 1px solid red; 
+}

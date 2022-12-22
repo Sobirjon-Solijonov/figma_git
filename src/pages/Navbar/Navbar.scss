@@ -11,18 +11,27 @@
     background: rgb(0, 0, 0);
     display: flex;
     justify-content: space-around;
-    
-    .nav_logo{
+    z-index: 30;
+    margin: 0 auto;
+    .flex_nav{
         display: flex;
         align-items: center;
         justify-content: center;
         color: floralwhite;
         font-size: 21px;
     }
+    .nav_logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+   
     
 }
 .Nav_links{
     display: flex;
+    margin-left: 350px;
 }
 .Link{
     color: aliceblue;
@@ -32,6 +41,7 @@
     text-decoration: none;
     margin: 0 25px;
     font-size: 14px;
+    z-index: 111;
     &:hover{
         border: 1px solid rgb(206, 189, 189);
         width: 90px;
@@ -39,5 +49,6 @@
         border-radius: 5px;
         overflow: hidden;
         margin-top: 15px;
+        box-sizing: inherit 5px 6px 12px #909090;
     }
 }
