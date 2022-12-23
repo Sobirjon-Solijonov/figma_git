@@ -42,13 +42,12 @@
     margin: 0 25px;
     font-size: 14px;
     z-index: 111;
+    padding: 0px;
     &:hover{
         border: 1px solid rgb(206, 189, 189);
         width: 90px;
         height: 40px;
         border-radius: 5px;
         overflow: hidden;
-        margin-top: 15px;
-        box-sizing: inherit 5px 6px 12px #909090;
     }
 }

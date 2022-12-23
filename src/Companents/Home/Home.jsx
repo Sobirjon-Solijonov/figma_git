@@ -130,6 +130,46 @@ function Home() {
                 here to listen and give the utmost
                 of our capabilities.</p>
             </div>
+            <div className="vps_card_continer_all">
+              <img src="" alt="" />
+              <h5>Responsive</h5>
+              <p>We know you look for positive attitude,
+                timely reactions, and flexibility. We are
+                here to listen and give the utmost
+                of our capabilities.</p>
+            </div>
+            <div className="vps_card_continer_all">
+              <img src="" alt="" />
+              <h5>Responsive</h5>
+              <p>We know you look for positive attitude,
+                timely reactions, and flexibility. We are
+                here to listen and give the utmost
+                of our capabilities.</p>
+            </div>
+            <div className="vps_card_continer_all">
+              <img src="" alt="" />
+              <h5>Responsive</h5>
+              <p>We know you look for positive attitude,
+                timely reactions, and flexibility. We are
+                here to listen and give the utmost
+                of our capabilities.</p>
+            </div>
+            <div className="vps_card_continer_all">
+              <img src="" alt="" />
+              <h5>Responsive</h5>
+              <p>We know you look for positive attitude,
+                timely reactions, and flexibility. We are
+                here to listen and give the utmost
+                of our capabilities.</p>
+            </div>
+            <div className="vps_card_continer_all">
+              <img src="" alt="" />
+              <h5>Responsive</h5>
+              <p>We know you look for positive attitude,
+                timely reactions, and flexibility. We are
+                here to listen and give the utmost
+                of our capabilities.</p>
+            </div>
           </div>
         </div>
 
